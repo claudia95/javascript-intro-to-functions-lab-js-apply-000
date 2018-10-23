@@ -1,7 +1,9 @@
 function shout(string) {
-  return string.toUpperCase();
+  string = string.toUpperCase();
+  return string;
 }
 
 function whsiper(string) {
-  return string.toLowerCase();
+  string = string.toLowerCase();
+  return string;
 }
