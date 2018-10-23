@@ -1,9 +1,11 @@
 function shout(string) {
-  string = string.toUpperCase();
-  return string;
+  return string.toUpperCase();
 }
 
 function whisper(string) {
-  string = string.toLowerCase();
-  return string;
+  return string.toLowerCase();
+}
+
+function logShout(string) {
+  console.log(string.toUpperCase());
 }
